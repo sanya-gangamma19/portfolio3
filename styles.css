@@ -1,0 +1,78 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  header {
+    background: #2b2b55;
+    padding: 1rem 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #f4c542;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  section {
+    padding: 2rem;
+    margin: 1rem;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #f4c542;
+  }
+  
+  .profile-pic {
+    display: block;
+    margin: 1rem auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #f4c542;
+  }
+  /* Contact Form */
+#contact input, #contact textarea, #contact button {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#contact button {
+  background:#f4c542;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#contact button:hover {
+  background: #f4c542;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #2b2b55;
+  color: #f4c542;
+}
